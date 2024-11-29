@@ -29,3 +29,17 @@ let studentObj = JSON.parse(studentJSON);
 
 // Logging the new object and comparing with the original
 console.log(studentObj);
+
+//Part 3
+
+let { name, courses } = student;
+console.log(name);  
+console.log(courses);
+
+// Creating an array of scores
+let scores = [82, 95, 68, 91];
+
+// Destructuring the first two scores
+let [score1, score2] = scores;
+console.log(score1);  
+console.log(score2); 
