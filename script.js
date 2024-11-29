@@ -66,3 +66,9 @@ student.totalCourses = function() {
     console.log(`Total courses: ${this.courses.length}`);
     return this.courses.length;
 };
+
+// Adding a new course
+student.addCourse("Science");
+
+// Total number of courses
+student.totalCourses();
