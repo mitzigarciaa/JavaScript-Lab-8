@@ -16,3 +16,16 @@ let student = {
 console.log("Name:", student.name);
 console.log("Age:", student.age);
 student.greet();  
+
+//Part 2
+
+let studentJSON = JSON.stringify(student);
+
+// JSON string
+console.log(studentJSON);
+
+// Converting the JSON string back into a JavaScript object
+let studentObj = JSON.parse(studentJSON);
+
+// Logging the new object and comparing with the original
+console.log(studentObj);
