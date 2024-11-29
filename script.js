@@ -54,3 +54,15 @@ let additionalCourses = ["English", "Math"];
 let allCourses = [...student.courses, ...additionalCourses];
 
 console.log(allCourses);
+
+//Part 5
+
+student.addCourse = function(course) {
+    this.courses.push(course);
+    console.log(`Course "${course}" added. Current courses: ${this.courses.join(", ")}.`);
+};
+
+student.totalCourses = function() {
+    console.log(`Total courses: ${this.courses.length}`);
+    return this.courses.length;
+};
