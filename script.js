@@ -49,3 +49,8 @@ console.log(score2);
 let clonedStudent = { ...student, graduationYear: 2027 };
 
 console.log(clonedStudent);
+
+let additionalCourses = ["English", "Math"];
+let allCourses = [...student.courses, ...additionalCourses];
+
+console.log(allCourses);
