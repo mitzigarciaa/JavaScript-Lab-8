@@ -43,3 +43,9 @@ let scores = [82, 95, 68, 91];
 let [score1, score2] = scores;
 console.log(score1);  
 console.log(score2); 
+
+//Part 4
+
+let clonedStudent = { ...student, graduationYear: 2027 };
+
+console.log(clonedStudent);
